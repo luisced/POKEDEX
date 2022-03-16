@@ -42,13 +42,19 @@ body {
 	margin-right: 25px;
 }
 
+.socialMedia:hover {
+	width: 35px;
+	height: 35px;
+}
+
 .navList {
 	list-style: none;
 }
 
 .navList .listItem {
 	display: inline-block;
-	padding: 20px 10px;
+	margin-right: 200px;
+	justify-content: center;
 }
 
 .navigationBar a {
@@ -73,15 +79,43 @@ body {
 	background-color: #05386b;
 	margin-bottom: 4px;
 }
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
 .pokedex {
-	margin: 10% auto 0% 50%;
-	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	font-size: 220px;
 	font-family: "Smooch Sans", sans-serif, "Helvetica Neue", Helvetica, Arial,
 		sans-serif;
 	font-weight: 800;
 	color: #fff;
+	margin-top: -40px;
+	margin-bottom: -130px;
 }
 
+.pokedexLines {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	width: 595px;
+	height: 8px;
+}
+
+.pokedexLines2 {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	width: 595px;
+	height: 8px;
+	margin-top: 90px;
+}
 .pokemonCard {
 	display: flex;
 	flex-direction: column;
@@ -95,7 +129,7 @@ body {
 	cursor: pointer;
 }
 
-@media all and (max-width: 568px) {
+@media all and (max-width: 958px) {
 	.navigationBar {
 		flex-direction: column;
 		position: relative;
@@ -121,21 +155,35 @@ body {
 	}
 
 	.navigationBar .listItem {
+		position: relative;
 		display: block;
 		border-top: #05386b solid 1.5px;
 		padding: 10px 0;
+		margin-right: -20px;
 	}
 
 	.myName {
 		font-size: 15vw;
+		display: block;
 	}
 
 	.pokedex {
 		position: relative;
 		display: block;
-		margin: 0 auto;
+		margin: -40px auto 10px auto;
 		text-align: center;
 		font-size: 30vw;
+	}
+
+	.pokedexLines {
+		width: 83%;
+		height: 8px;
+		margin-bottom: 20px;
+	}
+	.pokedexLines2 {
+		width: 83%;
+		height: 8px;
+		margin-top: -35px;
 	}
 }
 
