@@ -1,2 +1,144 @@
 :root {
+	--pokemon-size: 150px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	position: absolute;
+	background: linear-gradient(
+		0deg,
+		rgba(34, 193, 195, 1) 8%,
+		rgba(45, 253, 241, 0.49447635189517514) 64%
+	);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.navigationBar {
+	color: #05386b;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Smooch Sans", sans-serif, "Helvetica Neue", Helvetica, Arial;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.myName {
+	font-size: 4em;
+	font-weight: 700;
+	color: #05386b;
+}
+
+.socialMedia {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	margin-right: 25px;
+}
+
+.navList {
+	list-style: none;
+}
+
+.navList .listItem {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.navigationBar a {
+	text-decoration: none;
+	color: #05386b;
+	font-size: 1.7em;
+}
+
+.navigationBar a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu {
+	display: none;
+	position: absolute;
+}
+
+.menu-line {
+	width: 20px;
+	height: 3px;
+	background-color: #05386b;
+	margin-bottom: 4px;
+}
+.pokedex {
+	margin: 10% auto 0% 50%;
+	font-size: 150px;
+	font-family: "Smooch Sans", sans-serif, "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	font-weight: 800;
+	color: #fff;
+}
+
+.pokemonCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: var(--pokemon-size);
+	height: var(--pokemon-size);
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 10px;
+	cursor: pointer;
+}
+
+@media all and (max-width: 568px) {
+	.navigationBar {
+		flex-direction: column;
+		position: relative;
+	}
+
+	.navigationBar .myName {
+		width: 100%;
+	}
+
+	.menu {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+
+	.navList {
+		list-style-type: none;
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.navigationBar .listItem {
+		display: block;
+		border-top: #05386b solid 1.5px;
+		padding: 10px 0;
+	}
+
+	.myName {
+		font-size: 15vw;
+	}
+
+	.pokedex {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 30vw;
+	}
+}
+
+.active {
+	display: block;
 }
