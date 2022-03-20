@@ -367,12 +367,65 @@ body {
 	align-items: center;
 	width: 400px;
 	height: 100px;
+	color: #ffffff;
 	background-color: #090f34;
+	border-color: #090f34;
 	border-radius: 15px;
 	margin-top: -50px;
 	margin-left: -50px;
-	border: #05386b solid 1px;
+	top: -700px;
+	font-family: "VT323", monospace, sans-serif;
+	font-size: 60px;
+	text-align: center;
 }
+
+.pokeName:hover {
+	color: #ffffff;
+}
+
+.grid {
+	width: 146px;
+	height: 60px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	position: relative;
+	bottom: 650px;
+	right: 60px;
+}
+
+.blueSquare {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(36, 128, 182);
+	border: #000 solid 5px;
+	top: -100px;
+	left: -100px;
+	margin-right: 5px;
+	margin-top: 5px;
+/* }
+.getPokemon {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 100px;
+	color: #ffffff;
+	background-color: #090f34;
+	border-color: #090f34;
+	border-radius: 15px;
+	margin-top: -50px;
+	margin-left: -50px;
+	font-family: "VT323", monospace, sans-serif;
+	font-size: 60px;
+	text-align: center;
+} */
+
+/* .getPokemon:hover {
+	color: #ffffff;
+} */
+
 @media all and (max-width: 958px) {
 	.navigationBar {
 		flex-direction: column;
