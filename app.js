@@ -7,7 +7,6 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-
 const fetchPokemon = () => {
     // Esta función va a recibir el nombre del pokemon que el usuario escriba en el input y va a hacer una petición a la API
     const pokeName = document.getElementById('pokeName');
