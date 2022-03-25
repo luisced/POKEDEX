@@ -222,6 +222,7 @@ body {
 	margin: 150px auto 0 auto;
 	background-color: lightgray;
 	box-shadow: -8px 10px 0px 4px grey;
+	left: -200px;
 }
 
 .topHoles {
@@ -414,7 +415,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 400px;
-	height: 100px;
+	height: 90px;
 	color: #ffffff;
 	background-color: #044213;
 	border-color: #044213;
@@ -424,14 +425,27 @@ body {
 	font-family: "VT323", monospace, sans-serif;
 	font-size: 60px;
 	text-align: center;
-	right: 500px;
-	top: 550px;
-	right: 530px;
+	right: 390px;
+	top: 530px;
 }
 
-/* .getPokemon:hover {
+.getPokemon:hover {
 	color: #ffffff;
-} */
+}
+
+.pokeStats {
+	display: inline-block;
+	position: relative;
+	justify-content: space-around;
+	width: 400px;
+	height: 280px;
+	background-color: #129b1d;
+	border-radius: 5%;
+	top: 600px;
+	right: 780px;
+	font-family: "VT323", monospace, sans-serif;
+	color: #fff;
+}
 
 @media all and (max-width: 958px) {
 	.navigationBar {
