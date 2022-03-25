@@ -146,7 +146,7 @@ body {
 	width: 480px;
 	height: auto;
 	background-color: rgb(255, 255, 255);
-	top: 750px;
+	top: 800px;
 	border-radius: 10px;
 }
 
@@ -157,12 +157,13 @@ body {
 	background: radial-gradient(
 		circle,
 		rgba(198, 222, 222, 1) 8%,
-		rgba(45, 253, 241, 0.49447635189517514) 64%
+		rgba(45, 253, 241, 10) 64%
 	);
 	width: 80px;
 	height: 80px;
 	margin: 20px 20px 20px 0px;
-	border-radius: 50%;
+	border-radius: 100%;
+	left: 280px;
 }
 
 .red {
@@ -177,6 +178,7 @@ body {
 	margin: 30px 0 200px 150px;
 	width: 50px;
 	height: 50px;
+	border-radius: 100%;
 }
 
 .yellow {
@@ -191,6 +193,7 @@ body {
 	margin: 30px 0 200px 230px;
 	width: 50px;
 	height: 50px;
+	border-radius: 100%;
 }
 
 .green {
@@ -205,6 +208,7 @@ body {
 	margin: 30px 0 200px 310px;
 	width: 50px;
 	height: 50px;
+	border-radius: 100%;
 }
 
 .screen {
@@ -296,7 +300,7 @@ body {
 	background-color: rgb(0, 255, 0);
 	border-radius: 20%;
 	top: 850px;
-	right: 500px;
+	right: 450px;
 }
 
 .blueThinBottom {
@@ -339,7 +343,7 @@ body {
 	height: 900px;
 	border-radius: 15px;
 	top: 90px;
-	right: 109px;
+	right: 10px;
 }
 
 .trapezoid {
@@ -348,7 +352,7 @@ body {
 	border-right: 90px solid transparent;
 	border-top: 0 solid transparent;
 	width: 200px;
-	margin-top: -50px;
+	margin-top: -5px;
 	border-top-right-radius: 10px;
 }
 
@@ -373,7 +377,7 @@ body {
 	border-radius: 15px;
 	margin-top: -50px;
 	margin-left: -50px;
-	top: -700px;
+	top: -650px;
 	font-family: "VT323", monospace, sans-serif;
 	font-size: 60px;
 	text-align: center;
@@ -390,8 +394,8 @@ body {
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	position: relative;
-	bottom: 650px;
-	right: 60px;
+	bottom: 630px;
+	right: 45px;
 }
 
 .blueSquare {
@@ -403,7 +407,7 @@ body {
 	left: -100px;
 	margin-right: 5px;
 	margin-top: 5px;
-/* }
+}
 .getPokemon {
 	display: flex;
 	position: relative;
@@ -412,15 +416,18 @@ body {
 	width: 400px;
 	height: 100px;
 	color: #ffffff;
-	background-color: #090f34;
-	border-color: #090f34;
+	background-color: #044213;
+	border-color: #044213;
 	border-radius: 15px;
 	margin-top: -50px;
 	margin-left: -50px;
 	font-family: "VT323", monospace, sans-serif;
 	font-size: 60px;
 	text-align: center;
-} */
+	right: 500px;
+	top: 550px;
+	right: 530px;
+}
 
 /* .getPokemon:hover {
 	color: #ffffff;
