@@ -89,6 +89,7 @@ body {
 }
 
 .pokedex {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	font-size: 220px;
@@ -110,6 +111,7 @@ body {
 
 .pokedexLines2 {
 	display: flex;
+	position: relative;
 	justify-content: center;
 	background-color: #fff;
 	width: 595px;
@@ -120,6 +122,9 @@ body {
 .pokedexViewer {
 	display: flex;
 	justify-content: center;
+	position: relative;
+	top: 50%;
+	left: 13%;
 	width: 1550px;
 	height: 1000px;
 	border-radius: 2%;
@@ -146,14 +151,13 @@ body {
 	width: 480px;
 	height: auto;
 	background-color: rgb(255, 255, 255);
-	top: 800px;
+	top: 200px;
 	border-radius: 10px;
 }
 
 .blue {
+	position: relative;
 	display: flex;
-	position: absolute;
-	justify-content: center;
 	background: radial-gradient(
 		circle,
 		rgba(198, 222, 222, 1) 8%,
@@ -163,7 +167,7 @@ body {
 	height: 80px;
 	margin: 20px 20px 20px 0px;
 	border-radius: 100%;
-	left: 280px;
+	left: 30px;
 }
 
 .red {
@@ -536,7 +540,7 @@ body {
 #type {
 	position: relative;
 	top: 165px;
-	left: -125px;
+	right: 150px;
 }
 
 @media all and (max-width: 958px) {
@@ -593,6 +597,10 @@ body {
 	.pokedexLines2 {
 		width: 83%;
 		height: 8px;
+		margin-top: -35px;
+	}
+	.pokedexViewer {
+		position: relative;
 		margin-top: -35px;
 	}
 }
