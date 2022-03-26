@@ -434,9 +434,8 @@ body {
 }
 
 .pokeStats {
-	display: inline-block;
+	display: inline-flex;
 	position: relative;
-	justify-content: space-around;
 	width: 400px;
 	height: 280px;
 	background-color: #129b1d;
@@ -445,6 +444,99 @@ body {
 	right: 780px;
 	font-family: "VT323", monospace, sans-serif;
 	color: #fff;
+}
+
+.stats {
+	margin-right: 10px;
+}
+
+.statName {
+	font-size: 40px;
+}
+
+#PS {
+	position: relative;
+	left: 10px;
+}
+
+#ATK {
+	position: relative;
+	left: 80px;
+}
+
+#DEF {
+	position: relative;
+	left: 160px;
+}
+
+#SPATK {
+	position: relative;
+	right: 150px;
+	top: 100px;
+}
+
+#SPDEF {
+	position: relative;
+	right: 240px;
+	top: 200px;
+}
+
+#SPEED {
+	position: relative;
+	top: 100px;
+	right: 160px;
+}
+
+#TYPE {
+	position: relative;
+	top: 200px;
+	left: -250px;
+}
+
+.statValue {
+	font-size: 30px;
+}
+
+#ps {
+	position: relative;
+	left: 70px;
+	top: -32px;
+}
+
+#atk {
+	position: relative;
+	bottom: 32px;
+	left: 150px;
+}
+
+#def {
+	position: relative;
+	bottom: 32px;
+	left: 240px;
+}
+
+#spatk {
+	position: relative;
+	top: 65px;
+	right: 35px;
+}
+
+#speed {
+	position: relative;
+	top: 65px;
+	right: 35px;
+}
+
+#spdef {
+	position: relative;
+	top: 165px;
+	right: 125px;
+}
+
+#type {
+	position: relative;
+	top: 165px;
+	left: -125px;
 }
 
 @media all and (max-width: 958px) {
